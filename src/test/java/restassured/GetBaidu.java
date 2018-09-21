@@ -23,7 +23,7 @@ public class GetBaidu {
     public void getBaidu(){
         given()
                 .when()
-                .get("https://www.baidu.com").prettyPeek()
+                .get("https://www.baidu.com")
                 .then()
                 .statusCode(200);
     }

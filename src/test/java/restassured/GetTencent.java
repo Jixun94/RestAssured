@@ -22,7 +22,7 @@ public class GetTencent {
     public void getTencent(){
         given()
                 .when()
-                .get("http://www.qq.com").prettyPeek()
+                .get("http://www.qq.com")
                 .then()
                 .statusCode(200);
     }

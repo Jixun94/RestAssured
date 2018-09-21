@@ -21,7 +21,7 @@ public class GetSina {
     public void getSina(){
         given()
                 .when()
-                .get("http://www.sina.com.cn").prettyPeek()
+                .get("http://www.sina.com.cn")
                 .then()
                 .statusCode(200);
     }
