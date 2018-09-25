@@ -14,7 +14,7 @@ public class Test1 {
     }
     @Test
     public void fun1(){
-        System.out.println("this is Test1 fun1");
+        System.out.println(5/0);
     }
 
     @Test
