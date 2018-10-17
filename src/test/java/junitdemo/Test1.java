@@ -14,7 +14,8 @@ public class Test1 {
     }
     @Test
     public void fun1(){
-        System.out.println("0");
+        System.out.println("5/0");
+        System.out.println("0/5");
     }
 
     @Test
