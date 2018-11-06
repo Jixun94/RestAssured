@@ -16,7 +16,7 @@ public class Test1 {
     public void fun1(){
         //System.out.println(5/0);
         //System.out.println(0/5);
-        Assert.assertEquals(0,3);
+        //Assert.assertEquals(0,3);
     }
 
     @Test
